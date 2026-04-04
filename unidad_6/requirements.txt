@@ -1,0 +1,30 @@
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.8.4
+seaborn==0.13.2
+wordcloud==1.9.3
+nltk==3.8.1
+
+torch==2.2.2
+transformers==4.41.2
+sentence-transformers==3.2.1
+datasets==2.19.1
+accelerate==0.31.0
+
+langchain==0.3.7
+langchain-community==0.3.7
+langchain-ollama==0.2.1
+langchain-huggingface==0.1.2
+langchain-text-splitters==0.3.2
+
+# En Colab con GPU T4: reemplazar faiss-cpu por faiss-gpu-cu12
+faiss-cpu==1.8.0
+
+gradio==4.44.1
+
+# Solo necesario en Google Colab (terminal integrada para ollama serve)
+# colab-xterm==0.2.0
+
+setuptools==69.5.1
+jupyter==1.0.0
+ipykernel==6.29.5
